@@ -51,6 +51,7 @@ INSTALLED_APPS = [
     'debug_toolbar',
     'tinymce',
     'emoticons',
+    'threads',
 ]
 
 AUTH_USER_MODEL = 'accounts.User'
