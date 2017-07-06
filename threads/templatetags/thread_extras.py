@@ -21,4 +21,12 @@ def started_time(created_at):
 @register.simple_tag
 def last_posted_user_name(thread):
     posts = thread.posts.all().order_by('-created_at')
-    return posts.first().user.username
+    latest_post = posts.first()
+    if latest_post:
+        return posts.first().user.username
+    return ""
+
+    # try:
+    #    return posts.first().user.username
+    # except AttributeError:
+    #    return ""
