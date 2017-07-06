@@ -4,7 +4,7 @@ from .models import Magazine
 
 
 # Create your views here.
-@login_required
+@login_required(login_url='/login/')
 def all_magazines(request):
     magazines = Magazine.objects.all()
     return render(request, 'magazines/magazines.html', {'magazines': magazines})
