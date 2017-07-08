@@ -157,3 +157,7 @@ PAYPAL_NOTIFY_URL = 'http://98de0985.ngrok.io/a-very-hard-to-guess-url/'
 PAYPAL_RECEIVER_EMAIL = 'conradcoyle-facilitator@gmail.com'
 
 DISQUS_WEBSITE_SHORTNAME = 'myfirstblog'
+
+# Stripe environment variables
+STRIPE_PUBLISHABLE = os.getenv('STRIPE_PUBLISHABLE', 'pk_test_ch3eEaRHvrtWq2jb28V5PRfX')
+STRIPE_SECRET = os.getenv('STRIPE_SECRET', 'sk_test_nfZf9yc1njMtRqBdVndurV0m')

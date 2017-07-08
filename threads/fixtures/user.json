@@ -1,0 +1,56 @@
+[
+{
+    "fields": {
+        "username": "conradcoyle@gmail.com",
+        "first_name": "",
+        "last_name": "",
+        "is_active": true,
+        "is_superuser": true,
+        "is_staff": true,
+        "last_login": "2017-07-07T14:47:27.060Z",
+        "groups": [],
+        "user_permissions": [],
+        "password": "pbkdf2_sha256$20000$vpyvNDvrr7J3$vWneecge+s+rLkcq4h1UcS5D6DIHaPlljqMgf9mn77M=",
+        "email": "conradcoyle@gmail.com",
+        "date_joined": "2017-06-27T17:13:22.542Z"
+    },
+    "model": "accounts.user",
+    "pk": 1
+},
+{
+    "fields": {
+        "username": "thejoker@example.com",
+        "first_name": "",
+        "last_name": "",
+        "is_active": true,
+        "is_superuser": false,
+        "is_staff": false,
+        "last_login": "2017-07-07T14:51:28.955Z",
+        "groups": [],
+        "user_permissions": [],
+        "password": "pbkdf2_sha256$20000$DIjPOCKKrrjW$kutvFAY4Ykt5j/Df+WSwpuE/Fz42wge6qgTeIk+i0cY=",
+        "email": "thejoker@example.com",
+        "date_joined": "2017-06-28T16:33:58.547Z"
+    },
+    "model": "accounts.user",
+    "pk": 2
+},
+{
+    "fields": {
+        "username": "robin@example.com",
+        "first_name": "",
+        "last_name": "",
+        "is_active": true,
+        "is_superuser": false,
+        "is_staff": false,
+        "last_login": "2017-06-30T14:19:30.456Z",
+        "groups": [],
+        "user_permissions": [],
+        "password": "pbkdf2_sha256$20000$REZslHW1vmwx$chMRD/mQvX0R+0X4YUQe/CNy4949U6xMZDxt5wd8+2w=",
+        "email": "robin@example.com",
+        "date_joined": "2017-06-30T14:15:20.086Z"
+    },
+    "model": "accounts.user",
+    "pk": 3
+}
+]
