@@ -1,4 +1,3 @@
-from django.shortcuts import render
 from threads.models import Subject, Thread, Post
 from django.shortcuts import render, get_object_or_404
 from django.shortcuts import redirect
