@@ -17,6 +17,6 @@ STRIPE_PUBLISHABLE = os.getenv('STRIPE_PUBLISHABLE', 'pk_test_ch3eEaRHvrtWq2jb28
 STRIPE_SECRET = os.getenv('STRIPE_SECRET', 'sk_test_nfZf9yc1njMtRqBdVndurV0m')
 
 # PayPal environment variables
-SITE_URL = 'https://floating-taiga-53164.herokuapp.com/'
-PAYPAL_NOTIFY_URL = 'https://floating-taiga-53164.herokuapp.com/a-very-hard-to-guess-url/'
+SITE_URL = 'https://protected-waters-31864.herokuapp.com/'
+PAYPAL_NOTIFY_URL = 'https://protected-waters-31864.herokuapp.com/a-very-hard-to-guess-url/'
 PAYPAL_RECEIVER_EMAIL = 'conradcoyle-facilitator@gmail.com'
