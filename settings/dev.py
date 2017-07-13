@@ -20,3 +20,5 @@ STRIPE_SECRET = os.getenv('STRIPE_SECRET', 'sk_test_nfZf9yc1njMtRqBdVndurV0m')
 SITE_URL = 'http://127.0.0.1:8000'
 PAYPAL_NOTIFY_URL = 'http://98de0985.ngrok.io/a-very-hard-to-guess-url/'
 PAYPAL_RECEIVER_EMAIL = 'conradcoyle-facilitator@gmail.com'
+
+MIDDLEWARE += ['debug_toolbar.middleware.DebugToolbarMiddleware', ]
